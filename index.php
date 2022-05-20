@@ -1,16 +1,34 @@
+<?php
+$page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
+?>
+
 <!DOCTYPE html>
 <html>
-		<head>
-		<title>My Home Page</title>
-		</head>
-  <body>
-    <h1>Welcome to My Website! I am Kirby Calampinay</h1>
-    <ul>
-      <li><a href="/LT2/index.html">LEARNING TASK 2</a></li>
-	<li><a href="/LT3/index.html">LEARNING TASK 3</a></li>
-	    <li><a href="/CLE1MT/index.html">Culminating Learning Evidence (Midterm)</a></li>
-	    	<li><a href="/LT4/index.html">LEARNING TASK 4</a></li>
-	    		<li><a href="/LT5/index.html">LEARNING TASK 5</a></li>
-    </ul>
-  </body>
+<head>
+	<title>Kirby - Portfolio</title>
+	<link rel="stylesheet" href="css/stylesheets.css">
+</head>
+
+<body>
+		<ul>
+		<li><a onmouseenter='play()' href="index.php">Home</a> </li>
+		<li><a  onmouseenter='play()' href="index.php?page=DesignerProfile">Designer's Profile</a> </li>
+		<li><a  onmouseenter='play()' href="index.php?page=SampleWorks">Sample Works</a> </li>
+		</ul>
+	
+	<?php
+		switch($page){
+			case "DesignerProfile":
+			include "DesignProfile.php";
+		break;
+			case "SampleWorks":
+			include "SampleWorks.php";
+		break;
+			default:
+			include "Home.php";
+		break;}
+?>			
+		
+	<script src="jvs/script.js"></script>
+</body>
 </html>
