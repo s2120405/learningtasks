@@ -28,7 +28,7 @@
 	<img class="fade1" src="misc/Poem.png" alt="LT4">
 	</div>
 	<div id="box6">
-	<h6 onclick ='Alert3()'><a onmouseenter='play()' onclick ='play1()' href="LT3/MyList.html" target="_blank">Learning Task 3</a></h6>
+	<h6 onclick ='Alert3()'><a onmouseenter='play()' onclick ='play1()' href="LT3/index.html" target="_blank">Learning Task 3</a></h6>
 	<img class="fade1" src="misc/List.png" alt="LT3">
 	</div>
 	<div id="box6">
