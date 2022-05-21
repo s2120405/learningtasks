@@ -1,15 +1,13 @@
+
 <!DOCTYPE html>
+<html>
 <head>
 	<title>Kirby - Profile</title>
 	<link rel="stylesheet" href="css/stylesheets.css">
 </head>
 
 <body>
-		<ul>
-		<li><a onmouseenter='play()' href="index.php">Home</a> </li>
-		<li><a onmouseenter='play()' href="DesignProfile.php">Designer's Profile</a> </li>
-		<li><a onmouseenter='play()' href="SampleWorks.php">Sample Works</a> </li>
-		</ul>
+		<?php include 'Navigation/Navibar.php'?>
 		
 <div id="wrapper">
 		<div id="box3">
@@ -31,3 +29,4 @@
 
 		<script src="jvs/script.js"></script>
 </body>
+</html>
