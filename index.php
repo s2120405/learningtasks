@@ -15,7 +15,7 @@
 		<h2 class="glitch">BSIT 1-A | Web Design Portfolio</h2>
 		</div>
 		<div id="box2">
-		<img class="fade" src="misc/prof1.jpg"  alt="DefaultProf">
+		<img class="img1" src="misc/prof1.jpg"  alt="DefaultProf">
 		</div>
 	</div>
 		

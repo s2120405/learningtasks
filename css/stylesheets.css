@@ -11,7 +11,7 @@ body {
 	background: url(glitchbg.jpg);
 			background-repeat: no-repeat;
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: center;
 			background-size: fixed;
 }
 
@@ -97,21 +97,22 @@ li{		font-family: ValFont;
 #box4{
 				width: 780px;
 				height: 575px;
-				border-left: 3px solid white;
+				border-left: 5px solid white;
 				float: left;
 				background: url(static.png);
 				
 	}
 	
 	
-#box6{			width: 280px;
+#box6{			width: 275px;
 				height: 300px;
 				margin-top: 20px;
-				margin-left: 3px;
+				margin-left: 5px;
 				margin-right: 3px;
-				border: 2px solid white;
+				border: 3px inset white;
 				background: rgba(51, 65, 106, 0.6);
 				float: left;
+				border-radius: 5px;
 }
 
 #box7{			width: 1250px;
@@ -211,15 +212,24 @@ p{
 
 
 
-.fade { display: block;
+.img1 { display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width:45%;
+		width: 60%;
+		height: auto;
+		border: 10px inset #dc3d4b;	
+		border-radius: 5px;
+}
+
+.img2 { display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 45%;
 		height: auto;
 		border: 2px solid #dc3d4b;	
 }
 
-.fade1 { display: block;
+.img3 { display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 80%;

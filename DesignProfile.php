@@ -11,7 +11,7 @@
 		
 <div id="wrapper">
 		<div id="box3">
-		<img class="fade" src="misc/fullprof.jpg" alt="DefaultProf">
+		<img class="img2" src="misc/fullprof.jpg" alt="DefaultProf">
 		<h3>Personal Information</h3>
 		<h4>Full Name // Kirby Jayrich R. Calampinay</h4>
 		<h4>Age // 19</h4>
