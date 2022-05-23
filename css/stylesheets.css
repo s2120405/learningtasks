@@ -13,6 +13,7 @@ body {
 			background-attachment: fixed;
 			background-position: center;
 			background-size: fixed;
+			margin: 0;
 }
 
 	
@@ -20,10 +21,13 @@ ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	top: 0;
-	position: fixed;
-	width: 1480px;
+	z-index: 1;
+	overflow: hidden;
 	background-color: #fa4454;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
 }
 
 a:link {
@@ -47,11 +51,16 @@ a:active {
   text-decoration: underline;
 }
 
-li{		font-family: ValFont;
+li { 
+	float: left;	
+}
+
+li a{	
+		display: block;
+		font-family: ValFont;
 		font-size: 20px;
-		float: left;
 		color: black;
-		text-align: left;
+		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
 	
@@ -60,9 +69,10 @@ li{		font-family: ValFont;
 		}
 		
 #wrapper{
-				width: 1450px;
+				width: 1440px;
 				height: 580px;
 				margin-top: 130px;
+				margin-left: 10px;
 				padding: 5px;
 				border-left: 5px double #364966;
 				border-right: 5px double #364966;
@@ -78,7 +88,7 @@ li{		font-family: ValFont;
 	}
 	
 #box2{
-				width: 715px;
+				width: 700px;
 				height: 580px;
 				margin: 3px;
 				float: left;
@@ -104,12 +114,12 @@ li{		font-family: ValFont;
 	}
 	
 	
-#box6{			width: 275px;
-				height: 300px;
+#box6{			width: 650px;
+				height: 500px;
 				margin-top: 20px;
-				margin-left: 5px;
+				margin-left: 40px;
 				margin-right: 3px;
-				border: 3px inset white;
+				border: 5px inset white;
 				background: rgba(51, 65, 106, 0.6);
 				float: left;
 				border-radius: 5px;
@@ -121,6 +131,17 @@ li{		font-family: ValFont;
 				border-bottom: 5px dashed white;
 				float: center;
 				
+}
+
+#box8{			width: 850px;
+				height: 600px;
+				margin-top: 20px;
+				margin-left: 300px;
+				margin-right: 3px;
+				border: 5px inset white;
+				background: rgba(51, 65, 106, 0.6);
+				float: left;
+				border-radius: 5px;
 }
 	
 h1 {
@@ -184,7 +205,7 @@ h6 {
 	font-family: ValFont;
 	text-align: center;
 	color: white;
-	font-size: 25px;
+	font-size: 35px;
 	text-shadow:  2px 2px #dc3d4b;
 }
 
